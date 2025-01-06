@@ -1,0 +1,129 @@
+.section_contact{
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.imgs_contact{
+  width: 100%;
+  height: 100%;
+  clip-path: inset(0% 1% 0% 1%);
+}
+ .section_contact {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.imgs_contact {
+  border-radius: 10px;
+  width: 100%;
+  height: 80%;
+}
+
+.container_contacts {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.container_contact1,
+.container_contact2 {
+  flex: 1 1 45%;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.container_contact1{
+  color: #171717;
+}
+.map_container iframe {
+  width: 100%;
+  border-radius: 10px;
+}
+.container_contact button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border: 2px solid;
+  border-color: #60D669;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 5px;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.container_img{
+  margin-top: 3%;
+  height: 20%;
+  width: 60%;
+}
+.ubication{
+  display: flex; 
+}
+.button_mail{
+  /* display: flex;
+  border: 2px solid rgb(10, 80, 137);
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  background-color: #172984;
+  color: aliceblue; */
+
+ display: inline-flex; /* Centra el contenido dentro del botón */
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #0a5092;
+  border-radius: 10px;
+  padding: 10px 20px; /* Espaciado más amplio para que se vea profesional */
+  margin: 5px;
+   /* Azul más claro */
+  color: rgb(28, 28, 28);
+  font-size: 16px; /* Tamaño de fuente para mayor legibilidad */
+  font-weight: bold; /* Fuente más destacada */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  transition: all 0.3s ease-in-out; /* Transiciones suaves */
+  text-decoration: none; /* Para usarlo como un enlace estilizado */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Efecto de sombra */
+}
+
+.button_mail:hover {
+  background-color: #094176; /* Azul más oscuro al pasar el cursor */
+  border-color: #172984; /* Cambia el color del borde */
+  color: #ffffff; /* Asegura que el texto siga visible */
+  transform: scale(1.05); /* Pequeño zoom */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+}
+
+.container_contact button:hover{
+  transform: scale(1.05); /* Pequeño zoom */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+}
+
+
+@media screen and (max-width: 768px) {
+  .container_img{
+    width: 100%;
+  }
+.imgs_contact{
+  margin-top: 20%;
+  width:100% ;
+}
+.container_contacts{
+  width: 100%;
+}
+.container_contact button{
+  height: 50px;
+}
+}

@@ -1,0 +1,117 @@
+.practice_heading{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  
+}
+.container_practice_area{
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  /* height: 100vh; */
+  width: 65%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  
+}
+.container_conntac_practice_area{
+background-color: #f9f9f9;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+border-radius: 5px;
+  width: 20%;
+  height: 120%;
+  margin-left:2%;
+  margin-top: 100px;
+  position: relative;
+}
+.img_contact_practice{
+  width: 70%;
+  margin: 6%;
+  
+}
+.imgLogo{
+  border-radius: 10px;
+}
+.container_contact button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border: 2px solid;
+  border-color: #60D669;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 20px;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.icons_whatsapp{
+  color: #60D669;
+  margin-right: 30px;
+}
+.container_contact button:hover{
+  transform: scale(1.05); /* Pequeño zoom */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+}
+.description{
+  color: black;
+}
+.imgRepresentative{
+  clip-path: inset(0% 0% 0% 0%);
+  border-radius: 10px;
+  z-index: 1;
+  margin: 10px;
+  width: 70%;
+}
+.description{
+border-left: 5px solid #033141; /* Cambia el color y grosor según prefieras */
+  padding-left: 15px; /* Espacio entre el borde y el texto */
+  line-height: 1.6; /* Mejora la legibilidad */
+  font-size: 16px;
+  color: #171717;
+  font-family: 'Times New Roman', Times, serif;
+}
+.containerDescription{
+  margin: 20px;
+}
+.text_contact{
+  color: black;
+  margin: 5px;
+}
+.container_btt_mobile{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .practice_heading{
+    flex-direction: column;
+  }
+  .container_conntac_practice_area{
+    display: none;
+  }
+  .container_practice_area{
+    width: 90%;
+  }
+  .container_btt_mobile{
+    display: block;
+    width: 80%;
+    position: fixed;
+    margin-top: 150%;
+    margin-left: 2%;
+  }
+  .button_mobile{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: #169748;
+    color: #f1f1f1;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .icons_whatsapp{
+    color: #f1f1f1;
+  }
+}
