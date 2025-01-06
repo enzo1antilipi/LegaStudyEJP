@@ -2,7 +2,7 @@
 import Link from "next/link";
 import styles from '../styles/Navbar.module.css'
 import Image from "next/image";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 
 export default function Navbar(){
 
@@ -11,6 +11,24 @@ const [isMenuOpen,setIsMenuOpen]= useState (false)
 const toggleMenu=()=>{
     setIsMenuOpen(!isMenuOpen)
 }
+
+  const closeMenu = (event) => {
+        if (!event.target.closest(`.${styles.navbar}`)) {
+            setIsMenuOpen(false);
+        }
+    };
+
+    useEffect(() => {
+        if (isMenuOpen) {
+            document.addEventListener('click', closeMenu);
+        } else {
+            document.removeEventListener('click', closeMenu);
+        }
+
+        return () => {
+            document.removeEventListener('click', closeMenu);
+        };
+    }, [isMenuOpen]);
 
     return(
         <nav className={styles.navbar}>

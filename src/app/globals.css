@@ -209,6 +209,9 @@ body {
     color: white;
     height: auto;
   }
+  .title_section{
+    color: white;
+  }
   .container_imgs_home {
     flex-direction: column; /* Imagen arriba, texto abajo */
   }
@@ -239,5 +242,6 @@ body {
 
   .mobile-version {
     display: block;
+    margin: 2%;
   }
 }
