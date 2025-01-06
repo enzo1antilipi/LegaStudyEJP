@@ -95,6 +95,8 @@ border-left: 5px solid #033141; /* Cambia el color y grosor según prefieras */
   .container_practice_area{
     width: 90%;
     margin: 5%;
+    margin-top: 85px;
+    
   }
   /* .container_btt_mobile{
     display: block;
