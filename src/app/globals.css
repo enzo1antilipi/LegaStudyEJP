@@ -188,16 +188,25 @@ body {
   display: inline-block;
   vertical-align: middle;
   color: white;
-
+}
+.container_epj{
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 .EJP{
+  color: white;
   background-color: #8198A0;
-  font-size: 35px;
+  font-size: 44px;
   width: 70%;
   margin: auto;
   margin-top: -20px;
-  height: 50px;
   border-radius: 10px ;
+  font-family:  'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Ajusta según lo necesario */
   text-align: center;
 }
 
@@ -206,9 +215,13 @@ body {
   .containerImgHome{
     height: 70vh;
   }
+  .container_epj{
+    width: 100%;
+  }
   .EJP{
     color: white;
     height: auto;
+    width: 85%;
   }
   .title_section{
     color: white;

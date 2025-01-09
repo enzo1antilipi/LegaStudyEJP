@@ -67,10 +67,13 @@ align-items: center;
    .information_aboutUs {
     flex-direction: column; /* Apila la imagen y el texto verticalmente */
     text-align: center;
+    height: 100%;
+    
   }
 
   .containerImagen {
     margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+    margin-top: 20px ;
   }
 
   .title {
@@ -87,5 +90,12 @@ align-items: center;
   }
   .section_about{
     margin-bottom: 20px;
+    height: auto;
+    max-width: 100%; /* Asegura que no se desborde horizontalmente */
+  box-sizing: border-box; /* Incluye el padding dentro del ancho total */
+  }
+  .containerDescription{
+    margin-bottom: 10px;
+    margin-top: 40px;
   }
 }
