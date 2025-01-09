@@ -202,6 +202,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  
   .containerImgHome{
     height: 70vh;
   }
@@ -215,7 +216,9 @@ body {
   .container_imgs_home {
     flex-direction: column; /* Imagen arriba, texto abajo */
   }
-
+  .icons_whatsapp{
+    margin-right: 5px;
+  }
   .imgs {
     width: 100%; /* Imagen ocupa todo el ancho */
   }

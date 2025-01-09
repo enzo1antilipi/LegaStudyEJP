@@ -38,7 +38,7 @@
 
 .container_contact1,
 .container_contact2 {
-  flex: 1 1 45%;
+  flex: 1 1 45%;  
   background-color: #f9f9f9;
   border-radius: 10px;
   padding: 1rem;
@@ -46,6 +46,9 @@
 }
 .container_contact1{
   color: #171717;
+}
+.map_container{
+  margin-top: 10px;
 }
 .map_container iframe {
   width: 100%;

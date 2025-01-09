@@ -18,12 +18,14 @@ export default function about(){
             <div className={styles.containerDescription}>
                 <h1 className={styles.title}>QUIENES SOMOS</h1>
                 <h2 className={styles.subtitle}>Estudio Juridico Patagonico</h2>
-                <p className={styles.description}> Hemos abrazado la idea de ofrecer servicios legales
-                    desde la cercanía y la transparencia. Creemos firmemente que cada desafío legal
-                    es una oportunidad para transformar vidas y ayudarte a encontrar la paz interior 
-                    mientras alcanzas todo tu potencial. Si estás enfrentando un proceso de divorcio
-                    o necesitas asistencia en la división de bienes de la sociedad conyugal, estás
-                    en el lugar correcto.
+                <p className={styles.description}> Nuestra firma se mantiene al frente del asesoramiento legal en la Argentina adaptándose a las cambiantes necesidades de los clientes y de la comunidad.
+                En nuestra vida cotidiana nos enfrentamos con situaciones que exigen tomar decisiones de orden legal. Por tal motivo debemos pensar en la importancia que tiene estar asesorado convenientemente.
+                La permanente mejora del capital humano unida a la revisión constante de los recursos técnicos es lo que nos permite prestar un servicio responsable y de avanzada calidad.
+
+
+                Su éxito estuvo basado tanto en sus cualidades comunes como en sus diferentes experiencias e intereses. Nuestra oficina ha continuado fortaleciendo sus prácticas profesionales activas en cuanto a asuntos reglamentarios que comprende las áreas del Derecho Laboral (Accidentes de Trabajo), del Derecho Civil (Sucesiones, Divorcios, Accidentes de Tránsito y Exequatur – Validacion de Sentencias del Extranjero en la Argentina).
+                La clave de nuestro crecimiento está basada en la atención personalizada de las necesidades de cada uno de nuestros clientes, a través de una actuación diligente, eficiente y confidencial.
+                Justamente esta atención nos ha permitido la permanencia en el mercado y la posibilidad de expandir nuestro equipo, con la incorporación de nuevos y sólidos profesionales en las materias de práctica.
                 </p>
           </div>
                 

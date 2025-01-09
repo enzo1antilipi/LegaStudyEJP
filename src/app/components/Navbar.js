@@ -51,7 +51,7 @@ const toggleMenu=()=>{
                 <div className={styles.dropdownMenu}>
                 <Link className={styles.dropdownLink} href="/practice/accidente-trabajo">Accidente de Trabajo</Link>
                 <Link className={styles.dropdownLink} href="/practice/traffic-accident">Accidente de Auto</Link>
-                <Link className={styles.dropdownLink} href="/practice/successions">Sucessiones</Link>
+                <Link className={styles.dropdownLink} href="/practice/successions">Sucesiones</Link>
                 <Link className={styles.dropdownLink} href="/practice/family">Familia</Link>
                 </div>
             </div>

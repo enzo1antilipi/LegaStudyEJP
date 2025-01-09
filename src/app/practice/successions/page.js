@@ -1,3 +1,5 @@
+'use client';
+
 import Head from "next/head"
 import Image from "next/image" 
 import styles from '../../styles/Practice.module.css'
@@ -20,29 +22,48 @@ export default function successions(){
                               
                             />
                              <aside className={styles.containerDescription}>
-                            <p className={styles.description}>  Hemos abrazado la idea de ofrecer servicios legales
-                                desde la cercanía y la transparencia. Creemos firmemente que cada desafío legal
-                                es una oportunidad para transformar vidas y ayudarte a encontrar la paz interior 
-                                mientras alcanzas todo tu potencial. Si estás enfrentando un proceso de divorcio
-                                o necesitas asistencia en la división de bienes de la sociedad conyugal, estás
-                                en el lugar correcto.
-                                Hemos abrazado la idea de ofrecer servicios legales
-                                desde la cercanía y la transparencia. Creemos firmemente que cada desafío legal
-                                es una oportunidad para transformar vidas y ayudarte a encontrar la paz interior 
-                                mientras alcanzas todo tu potencial. Si estás enfrentando un proceso de divorcio
-                                o necesitas asistencia en la división de bienes de la sociedad conyugal, estás
-                                en el lugar correcto.
-                                Hemos abrazado la idea de ofrecer servicios legales
-                                desde la cercanía y la transparencia. Creemos firmemente que cada desafío legal
-                                es una oportunidad para transformar vidas y ayudarte a encontrar la paz interior 
-                                mientras alcanzas todo tu potencial. Si estás enfrentando un proceso de divorcio
-                                o necesitas asistencia en la división de bienes de la sociedad conyugal, estás
-                                en el lugar correcto.
-                                Si estás enfrentando un proceso de divorcio
-                                o necesitas asistencia en la división de bienes de la sociedad conyugal, estás
-                                en el lugar correcto.
+                            <p className={styles.description}>  
+                                Nuestro estudio brinda un servicio rápido y flexible para dar inicio al trámite sucesorio.
+
+Según su preferencia, podrá coordinar una entrevista personal con uno de nuestros abogados o ser asesorado telefónicamente sobre cualquier duda respecto al juicio sucesorio. Puede contactarse para su caso en Puerto Madryn, Trelew o Comodoro Rivadavia al teléfono +54 9 280 496-9326 o enviarnos su consulta a través del formulario de contacto para que podamos brindarle una respuesta personalizada.
+
+Luego de interiorizarnos sobre las particularidades de su caso, le enviaremos un formulario con la documentación necesaria para dar comienzo al trámite, como también un presupuesto detallado con los gastos y honorarios que deberá abonar. Para más información respecto a honorarios, consulte la sección de gastos y honorarios.
+
+Al recibir la documentación necesaria, podremos redactar el escrito de inicio del juicio de sucesión y lo citaremos para firmar dicho documento, así como también el convenio de honorarios.
+
+Luego de iniciada la sucesión en el Juzgado sorteado, y en virtud de su procedimiento y la carga de trabajo del mismo, la demora normal aproximada es entre 4 y 6 meses hasta el dictamen de la declaratoria de herederos.
+
+Una vez que el juez dicta la Declaratoria de Herederos o declara válido el testamento, se procederá a la inscripción de esa resolución judicial en los distintos registros (inmueble, automotor, etc.), y de esta forma finalizará la sucesión.
 
                             </p>
+                            <p className={styles.question}>PLANIFICACIÓN HEREDITARIA</p>
+                            <p className={styles.description}>“La planificación hereditaria tiene dos claros objetivos: cumplir la voluntad del testador y evitar conflictos entre los beneficiarios del mismo.”
+
+                                La muerte es un hecho natural del que nadie puede escapar. Aun así, el concepto de “muerte” provoca una reacción emocional que hace que muchas personas sean reticentes a hacer testamento y fallezcan sin haber determinado claramente su última voluntad, lo que origina conflictos entre familiares y beneficiarios.
+
+                                Una adecuada planificación en vida sobre el destino de estos bienes y su correcta adjudicación a los beneficiarios puede evitar la mayoría de los problemas. Hoy en día, separaciones y divorcios son frecuentes, lo que puede complicar la adjudicación de bienes si no se establece una planificación clara.
+
+                                Además, la planificación hereditaria puede representar un importante ahorro fiscal en aquellas provincias donde aún existe un impuesto sobre sucesiones y donaciones.
+
+                                </p>
+                                <p className={styles.question}>DOCUMENTACIÓN NECESARIA PARA LA SUCESIÓN</p>
+                                <p className={styles.description}>Partida de defunción del causante fallecido.
+                                    Partidas de nacimiento de los hijos vivos y, si corresponde, partida de defunción de hijos fallecidos.
+                                    Partida de matrimonio, si estaba casado/a.
+                                    Partida de defunción del cónyuge, si era viudo/a.
+                                    Documentación que acredite vínculos en caso de otros parentescos.
+                                    Nombre, domicilio, DNI y estado civil de todos los herederos.
+                                    Títulos de propiedad (original para exhibir y fotocopia para entregar).
+                                    Boleta de servicios o impuestos actual de los inmuebles que se incluyan en la sucesión.
+                                    Otras documentaciones que acrediten cuentas bancarias, derechos, acciones, etc.
+                                    Si no cuenta con toda esta documentación, lo asesoraremos y pondremos a su disposición una gestoría para reunir los documentos necesarios.
+                                </p>
+                                 {/* <p className={styles.question}>HONORARIOS Y GASTOS</p>
+                                 <p className={styles.description}> Los honorarios del abogado para el trámite sucesorio oscilan entre el 11 y el 20 % del valor real de los bienes en la Ciudad de Buenos Aires. En la Provincia de Buenos Aires, van del 7 al 25 % de la valuación fiscal.
+
+En los juicios sucesorios, siempre recomendamos solicitar a su abogado patrocinante un convenio de honorarios por anticipado para evitar sorpresas respecto a la regulación judicial de honorarios.
+
+Para consultas y asesoramiento personalizado sobre su caso de sucesión en Puerto Madryn, Trelew o Comodoro Rivadavia, contáctenos al +54 9 280 496-9326.</p> */}
                             </aside>
                 </div>
                 
@@ -60,11 +81,11 @@ export default function successions(){
                         <section className={styles.container_contact}>
                             <p  className={styles.text_contact}>Comonicate con nosotros </p>
                             <p  className={styles.text_contact}>Whatsapp</p>
-                        <button><svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" className="icons_whatsapp" viewBox="0 0 24 24"><g fill="none" fillRule="evenodd"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2.546 20.2A1.01 1.01 0 0 0 3.8 21.454l3.032-.892A9.96 9.96 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2M9.738 14.263c2.023 2.022 3.954 2.289 4.636 2.314c1.037.038 2.047-.754 2.44-1.673a.7.7 0 0 0-.088-.703c-.548-.7-1.289-1.203-2.013-1.703a.71.71 0 0 0-.973.158l-.6.915a.23.23 0 0 1-.305.076c-.407-.233-1-.629-1.426-1.055s-.798-.992-1.007-1.373a.23.23 0 0 1 .067-.291l.924-.686a.71.71 0 0 0 .12-.94c-.448-.656-.97-1.49-1.727-2.043a.7.7 0 0 0-.684-.075c-.92.394-1.716 1.404-1.678 2.443c.025.682.292 2.613 2.314 4.636"/></g></svg>2804556677</button>
+                        <button onClick={()=> window.open("https://wa.me/+5492945638804","_blank")}><svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" className="icons_whatsapp" viewBox="0 0 24 24"><g fill="none" fillRule="evenodd"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2.546 20.2A1.01 1.01 0 0 0 3.8 21.454l3.032-.892A9.96 9.96 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2M9.738 14.263c2.023 2.022 3.954 2.289 4.636 2.314c1.037.038 2.047-.754 2.44-1.673a.7.7 0 0 0-.088-.703c-.548-.7-1.289-1.203-2.013-1.703a.71.71 0 0 0-.973.158l-.6.915a.23.23 0 0 1-.305.076c-.407-.233-1-.629-1.426-1.055s-.798-.992-1.007-1.373a.23.23 0 0 1 .067-.291l.924-.686a.71.71 0 0 0 .12-.94c-.448-.656-.97-1.49-1.727-2.043a.7.7 0 0 0-.684-.075c-.92.394-1.716 1.404-1.678 2.443c.025.682.292 2.613 2.314 4.636"/></g></svg>2804969326</button>
                     </section>
                 </section>
                 <div className={styles.container_btt_mobile}>
-                    <button className={styles.button_mobile}><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" className={styles.icons_whatsapp} viewBox="0 0 24 24"><g fill="none" fillRule="evenodd"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2.546 20.2A1.01 1.01 0 0 0 3.8 21.454l3.032-.892A9.96 9.96 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2M9.738 14.263c2.023 2.022 3.954 2.289 4.636 2.314c1.037.038 2.047-.754 2.44-1.673a.7.7 0 0 0-.088-.703c-.548-.7-1.289-1.203-2.013-1.703a.71.71 0 0 0-.973.158l-.6.915a.23.23 0 0 1-.305.076c-.407-.233-1-.629-1.426-1.055s-.798-.992-1.007-1.373a.23.23 0 0 1 .067-.291l.924-.686a.71.71 0 0 0 .12-.94c-.448-.656-.97-1.49-1.727-2.043a.7.7 0 0 0-.684-.075c-.92.394-1.716 1.404-1.678 2.443c.025.682.292 2.613 2.314 4.636"/></g></svg>Comunicate con nosotros</button>
+                    <button  onClick={()=> window.open("https://wa.me/+5492945638804","_blank")} className={styles.button_mobile}><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" className={styles.icons_whatsapp} viewBox="0 0 24 24"><g fill="none" fillRule="evenodd"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2.546 20.2A1.01 1.01 0 0 0 3.8 21.454l3.032-.892A9.96 9.96 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2M9.738 14.263c2.023 2.022 3.954 2.289 4.636 2.314c1.037.038 2.047-.754 2.44-1.673a.7.7 0 0 0-.088-.703c-.548-.7-1.289-1.203-2.013-1.703a.71.71 0 0 0-.973.158l-.6.915a.23.23 0 0 1-.305.076c-.407-.233-1-.629-1.426-1.055s-.798-.992-1.007-1.373a.23.23 0 0 1 .067-.291l.924-.686a.71.71 0 0 0 .12-.94c-.448-.656-.97-1.49-1.727-2.043a.7.7 0 0 0-.684-.075c-.92.394-1.716 1.404-1.678 2.443c.025.682.292 2.613 2.314 4.636"/></g></svg>Comunicate con nosotros</button>
                 </div>
             </section>
     

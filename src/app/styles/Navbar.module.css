@@ -104,10 +104,10 @@
   .navLinks_container {
     display: none;
     flex-direction: column;
+    align-items: flex-start;
     position: absolute;
     top: 60px; /* Adjust based on your navbar height */
     left: 0;
-    right: 0;
     background-color: #033141;
     padding: 20px;
     z-index: 1000;
@@ -117,8 +117,28 @@
   .navLinks_container.show {
     display: flex;
   }
-
   .navLink {
+    padding: 10px ;
+    margin-left: 33%;
+  }
+  .dropdown{
+    margin-left: 35%;
+    
+  }
+   .dropdownMenu {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start; /* Alinea el menú desplegable al margen izquierdo */
+    background-color: #444;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100%; /* Asegura que ocupe todo el ancho */
+  }
+  .dropdownLink {
     padding: 10px 0;
+    width: 100%; /* Asegura que ocupen todo el ancho */
+    text-align: left; /* Alinea el texto de los enlaces internos */
+    color: white;
+    text-decoration: none;
   }
 }
