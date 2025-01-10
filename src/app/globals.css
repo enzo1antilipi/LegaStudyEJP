@@ -250,7 +250,27 @@ body {
 .mobile-version {
   display: none;
 }
+.svg_list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 100px;
+}
+.svg_item {
+  text-align: center;
+}
+.svg_item svg {
+  display: block;
+  margin: 0 auto;
+}
 
+.svg_item span {
+  display: block;
+  margin-top: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+}
 @media screen and (max-width: 768px) {
   .desktop-version {
     display: none;
@@ -260,4 +280,10 @@ body {
     display: block;
     margin: 2%;
   }
+  .svg_list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
 }
