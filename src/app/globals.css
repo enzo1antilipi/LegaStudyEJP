@@ -85,10 +85,10 @@ body {
 .containerList{
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .list_of_cities{
-   display: flex;
+  display: flex;
   justify-content: space-between; /* Espacio entre los elementos */
   list-style-type: none; /* Elimina los puntos de la lista */
   padding: 0;
@@ -195,19 +195,18 @@ body {
    justify-content: center;
 }
 .EJP{
-  color: white;
-  background-color: #8198A0;
+  color: black;
   font-size: 44px;
   width: 70%;
   margin: auto;
-  margin-top: -20px;
-  border-radius: 10px ;
+  margin-top: 10px;
   font-family:  'Times New Roman', Times, serif;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%; /* Ajusta según lo necesario */
   text-align: center;
+  font-weight: bolder;
 }
 
 @media screen and (max-width: 768px) {
