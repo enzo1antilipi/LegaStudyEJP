@@ -1,7 +1,83 @@
 .containerFooter{
   background-color:#033141;
-  height: 60px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
 }
-/* General body and HTML settings */
 
 
+.button_mail{
+ display: inline-flex; /* Centra el contenido dentro del botón */
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px 20px; /* Espaciado más amplio para que se vea profesional */
+  margin-left: 50px;
+   /* Azul más claro */
+  color: rgb(255, 255, 255);
+  font-size: 16px; /* Tamaño de fuente para mayor legibilidad */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  transition: all 0.3s ease-in-out; /* Transiciones suaves */
+  text-decoration: underline; /* Para usarlo como un enlace estilizado */
+}
+.svg_email{
+  fill: white;
+  margin-right: 15px;
+}
+.areas{
+  display: flex;
+  align-items: center;
+  margin-left:50px ;
+}
+.title{
+  font-size: 20px;
+  text-align: center;
+  margin-right: 20px;
+}
+.areas ul {
+  list-style: none; /* Quitar los puntos de las listas */
+  padding: 0; /* Quitar el padding predeterminado */
+  margin: 0 10px; /* Espaciado horizontal entre las listas */
+}
+
+.areas li {
+  font-size: 18px; /* Ajusta el tamaño de los ítems */
+  margin-bottom: 5px; /* Espacio entre los ítems */
+  text-decoration: underline;
+}
+.containerMail{
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .containerFooter {
+    flex-direction: column; /* Apilar elementos verticalmente */
+   
+    /* text-align: center; Centrar el texto */
+    height: auto;
+  }
+.svg_email{
+  fill: white;
+}
+  .button_mail {
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 0%;
+    margin-bottom: 15px;
+  }
+
+  .areas {
+    justify-content: flex-start;
+    margin-left: 2.5%;
+  }
+
+  .title {
+    margin-right: 0; /* Quitar margen derecho */
+    margin-bottom: 10px; /* Espaciado en móviles */
+  }
+
+  .areas ul {
+    color: white;
+    justify-content: flex-start;
+  }
+}
