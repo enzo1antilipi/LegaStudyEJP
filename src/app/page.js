@@ -64,7 +64,7 @@ export default function Home() {
        </section>
        <section>
         <div className="desktop-version">
-      <div className="container_sections_home">
+      <div className="container_sections_home" >
       <article className="container_imgs_home">
         <Image
           className="imgs"
@@ -127,9 +127,9 @@ export default function Home() {
         </div>
       </article>
 
-      <article className="container_imgs_home">
+      <article className="container_imgs_home" >
        
-        <div className="container_information">
+        <div className="container_information"  style={{marginBottom:"50px"}}>
           <h1 className="title_section"> Familia</h1>
           <p className="paragraph">Nuestro estudio brinda un servicio rápido 
             y flexible para dar inicio 
@@ -145,6 +145,7 @@ export default function Home() {
           width={550}
           height={38}
           priority
+           style={{marginBottom:"50px"}}
         />
       </article>
       </div>
@@ -216,7 +217,7 @@ export default function Home() {
         </div>
       </article>
 
-      <article className="container_imgs_home">
+      <article className="container_imgs_home" >
         <Image
           className="imgs"
           src="/familia2.jpg"

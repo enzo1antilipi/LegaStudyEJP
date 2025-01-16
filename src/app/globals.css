@@ -18,6 +18,17 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+   background-image: url('../../public/fondogeneral.png'); /* Ruta de la imagen de fondo */
+  background-size: cover; /* La imagen cubre todo el fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  margin: 0;
+}
+.mein {
+  width: 94%; /* Deja un 5% de margen en cada lado */
+  margin: 0 auto ; /* Centra el contenido horizontalmente */
+  background-color: white; /* Fondo blanco para el contenido */
+  margin: 0 auto;
 }
 .containerImgHome{
   display: flex;
@@ -29,7 +40,7 @@ body {
 
 }
 .container_sections_home{
-  margin: 10%;
+  
 }
  .container_imgs_home{
   margin-top: 90px;
@@ -284,5 +295,11 @@ body {
   justify-content: space-around;
   align-items: center;
   gap: 20px;
+}
+.mein {
+  width: 100%; /* Deja un 5% de margen en cada lado */
+  margin: 0 auto ; /* Centra el contenido horizontalmente */
+  background-color: white; /* Fondo blanco para el contenido */
+  height: 100%;
 }
 }
