@@ -1,25 +1,12 @@
 .containerFooter{
   background-color:#033141;
-  height: 80px;
+  height: 120px;
   display: flex;
   flex-wrap: wrap;
 }
 
 
-.button_mail{
- display: inline-flex; /* Centra el contenido dentro del botón */
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  padding: 10px 20px; /* Espaciado más amplio para que se vea profesional */
-  margin-left: 50px;
-   /* Azul más claro */
-  color: rgb(255, 255, 255);
-  font-size: 16px; /* Tamaño de fuente para mayor legibilidad */
-  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-  transition: all 0.3s ease-in-out; /* Transiciones suaves */
-  text-decoration: underline; /* Para usarlo como un enlace estilizado */
-}
+
 .svg_email{
   fill: white;
   margin-right: 15px;
@@ -27,12 +14,16 @@
 .areas{
   display: flex;
   align-items: center;
-  margin-left:50px ;
+  justify-content: center;
+  flex-direction: column;
+  margin-left:5% ;
+  width: 30%;
 }
 .title{
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
-  margin-right: 20px;
+  margin-left: 50px;
+  
 }
 .areas ul {
   list-style: none; /* Quitar los puntos de las listas */
@@ -49,6 +40,9 @@
   display: flex;
   align-items: center;
 }
+.containerMail a {
+  margin: 15px;
+}
 @media (max-width: 768px) {
   .containerFooter {
     flex-direction: column; /* Apilar elementos verticalmente */
@@ -56,9 +50,9 @@
     /* text-align: center; Centrar el texto */
     height: auto;
   }
-.svg_email{
-  fill: white;
-}
+  .svg_email{
+    fill: white;
+  }
   .button_mail {
     justify-content: flex-start;
     align-items: flex-start;
@@ -68,7 +62,8 @@
 
   .areas {
     justify-content: flex-start;
-    margin-left: 2.5%;
+    margin-left: 0px;
+    width: 90%;
   }
 
   .title {
@@ -79,5 +74,54 @@
   .areas ul {
     color: white;
     justify-content: flex-start;
+  }
+  .logo{
+    margin-left: 0%;
+  }
+}
+.areasPractice{
+  display: flex;
+}
+.logo{
+  width: 100px;
+  margin-left: 50px;
+}
+.button_mail{
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-size: 16px; /* Tamaño de fuente para mayor legibilidad */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  transition: all 0.3s ease-in-out; /* Transiciones suaves */
+  text-decoration: underline; /* Para usarlo como un enlace estilizado */
+}
+.facebook{
+  fill:white
+}
+.instagram{
+  fill:white
+}
+.botonWsp{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.containerCopyright{
+  margin-top: 6%;
+}
+.copyright{
+  color: #718598;
+}
+@media (max-width: 768px) {
+  .logo{
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+  .areas{
+    width: 75%;
+  }
+  .containerCopyright{
+    width: 80%;
+    margin-left: 20px;
   }
 }
